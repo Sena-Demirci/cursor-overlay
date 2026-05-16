@@ -59,9 +59,9 @@ cursor-overlay/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cursor-overlay.git
+git clone https://github.com/Sena-Demirci/cursor-overlay.git
 cd cursor-overlay
-pip install pillow pyautogui
+pip install -r requirements.txt
 ```
 
 ---
