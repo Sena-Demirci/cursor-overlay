@@ -144,6 +144,18 @@ Pull requests are welcome.
 
 ---
 
+> ⚠️ **NOTE**
+>
+> To run the project, make sure you execute the correct entry point:
+>
+> ```bash
+> python main.py
+> ```
+>
+> Running other files directly may cause errors due to project structure and dependencies.
+
+
+
 ## 📜 License
 
 MIT License
