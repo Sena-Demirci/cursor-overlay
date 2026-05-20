@@ -10,39 +10,40 @@
 
 ---
 
-## 🚀 Overview
+##  Overview
 
-A lightweight and customizable animated cursor companion built with Python.
+A simple and customizable animated cursor companion made with Python.
 
-This project creates a smooth, floating visual that follows your mouse in real-time, adding subtle visual feedback and personality to your desktop.
-
----
-
-## 🎯 Features
-
-* 🖱 Smooth cursor tracking (interpolated movement)
-* 🎨 Custom image support
-* ✨ Sparkle particle system
-* 🌊 Floating idle animation
-* 🪟 Transparent overlay window
-* ⚡ Real-time performance
+This project creates a smooth visual that follows your mouse in real time and adds a small, stylish effect to your desktop.
 
 ---
 
-## 🧠 How It Works
+## Features
+
+* Smooth cursor tracking (interpolated movement)
+* Custom image support
+* Sparkle particle system
+* Floating idle animation
+* Transparent overlay window
+* Real-time performance
+
+---
+
+## How It Works
 
 This is **not a cursor replacement**, but an **overlay system**.
 
 It works by:
 
-* Tracking your mouse position via `pyautogui`
-* Rendering a transparent window using `tkinter`
-* Smoothly animating an image toward the cursor
-* Adding optional visual effects (sparkles)
+* Tracks your mouse position using `pyautogui`
+* Shows a transparent window using `tkinter`
+* Smoothly moves an image toward the cursor
+* Adds optional visual effects (like sparkles)
+
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 cursor-overlay/
@@ -56,7 +57,7 @@ cursor-overlay/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/Sena-Demirci/cursor-overlay.git
@@ -66,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run
+## Run
 
 ```bash
 python main.py
@@ -76,7 +77,7 @@ Press `ESC` to exit.
 
 ---
 
-## 🎨 Custom Image
+## Custom Image
 
 1. Add image to `assets/`
 2. Open `config.py`
@@ -90,7 +91,7 @@ AVAILABLE_SKINS = {
 
 ---
 
-## ⚙️ Customization
+## Customization
 
 Edit `config.py`:
 
@@ -110,7 +111,7 @@ ENABLE_SPARKLES = False
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * Python
 * Tkinter
@@ -119,7 +120,7 @@ ENABLE_SPARKLES = False
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Windows recommended
 * Python 3.10+
@@ -127,18 +128,18 @@ ENABLE_SPARKLES = False
 
 ---
 
-## ⭐ Why This Project
+## Why This Project?
 
-This project demonstrates:
+This project shows:
 
 * Real-time animation systems
-* Modular architecture
-* User-configurable design
-* Overlay rendering techniques
+* A modular system design
+* A design that users can customize
+* Techniques for drawing overlays on the screen
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome.
 
@@ -156,10 +157,10 @@ Pull requests are welcome.
 
 
 
-## 📜 License
+## License
 
 MIT License
 
 Copyright (c) 2026 Sena Demirci
 
-Permission is hereby granted...
+Permission is given to use this project...
